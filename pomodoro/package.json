@@ -1,0 +1,6 @@
+{
+  "name": "focus-log", "version": "1.0.0", "private": true, "type": "module",
+  "description": "Learning-friendly Pomodoro MVP with server-side SQLite persistence",
+  "engines": { "node": ">=24.15.0" },
+  "scripts": { "start": "node server/index.js", "dev": "node --watch server/index.js", "test": "node --test tests/*.test.js" }
+}
